@@ -1,0 +1,9 @@
+# Used to set configuration for video stream encoder.
+
+int64 image_width # Pixels
+int64 image_height # Pixels
+
+int64 frame_rate # Hz
+---
+bool success # Returns true if config was successfully applied.
+string error_msg # Error message
