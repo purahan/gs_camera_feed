@@ -1,10 +1,19 @@
 # GStream Camera Feed with ROS2(Humble)
 
 ## Dependencies
-* Install ROS 2 Compressed Image Transport: `sudo apt install ros-humble-compressed-image-transport`
-* Make sure Compressed Image Transport is listed: `ros2 run image_transport list_transports`
+* Install ROS 2 Compressed Image Transport:
+```
+sudo apt install ros-humble-compressed-image-transport
+```
+* Make sure Compressed Image Transport is listed:
+```
+ros2 run image_transport list_transports
+```
 * OpenCV 4.x
-* libsystemd-dev: `sudo apt install libsystemd-dev`
+* libsystemd-dev:
+```
+sudo apt install libsystemd-dev
+```
 
 ## Usage:
 * Find the serial ID for the USB camera devices using the `find_devpath.bash` file within the `utils/` folder.
